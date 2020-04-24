@@ -65,10 +65,10 @@
   <mapcanvas annotationsVisible="1" name="theMapCanvas">
     <units>meters</units>
     <extent>
-      <xmin>721767.19226494489703327</xmin>
-      <ymin>6190493.62769324146211147</ymin>
-      <xmax>722116.30305216962005943</xmax>
-      <ymax>6190723.88605333678424358</ymax>
+      <xmin>721882.91526615677867085</xmin>
+      <ymin>6190567.67820748873054981</ymin>
+      <xmax>721987.59661218721885234</xmax>
+      <ymax>6190667.70704925060272217</ymax>
     </extent>
     <rotation>-75</rotation>
     <destinationsrs>
@@ -1160,7 +1160,7 @@
         <settings calloutType="simple">
           <text-style blendMode="0" fieldName="husnr" fontCapitals="0" fontFamily="BellTopo Sans" fontItalic="0" fontKerning="1" fontLetterSpacing="0" fontSize="12" fontSizeMapUnitScale="3x:0,0,0,0,0,0" fontSizeUnit="Point" fontStrikeout="0" fontUnderline="0" fontWeight="75" fontWordSpacing="0" isExpression="0" multilineHeight="1" namedStyle="Bold" previewBkgrdColor="255,255,255,255" textColor="0,0,0,255" textOpacity="1" textOrientation="horizontal" useSubstitutions="0">
             <text-buffer bufferBlendMode="0" bufferColor="255,255,255,255" bufferDraw="0" bufferJoinStyle="128" bufferNoFill="1" bufferOpacity="1" bufferSize="1" bufferSizeMapUnitScale="3x:0,0,0,0,0,0" bufferSizeUnits="MM"></text-buffer>
-            <text-mask maskEnabled="0" maskJoinStyle="128" maskOpacity="1" maskSize="0" maskSizeMapUnitScale="3x:0,0,0,0,0,0" maskSizeUnits="MM" maskType="0" maskedSymbolLayers=""></text-mask>
+            <text-mask maskEnabled="1" maskJoinStyle="128" maskOpacity="1" maskSize="0.9999999999999999" maskSizeMapUnitScale="3x:0,0,0,0,0,0" maskSizeUnits="MM" maskType="0" maskedSymbolLayers="højdekurver_fe9a23c0_e161_475b_995e_8d52a868035c,,0"></text-mask>
             <background shapeBlendMode="0" shapeBorderColor="128,128,128,255" shapeBorderWidth="0" shapeBorderWidthMapUnitScale="3x:0,0,0,0,0,0" shapeBorderWidthUnit="MM" shapeDraw="0" shapeFillColor="255,255,255,255" shapeJoinStyle="64" shapeOffsetMapUnitScale="3x:0,0,0,0,0,0" shapeOffsetUnit="MM" shapeOffsetX="0" shapeOffsetY="0" shapeOpacity="1" shapeRadiiMapUnitScale="3x:0,0,0,0,0,0" shapeRadiiUnit="MM" shapeRadiiX="0" shapeRadiiY="0" shapeRotation="0" shapeRotationType="0" shapeSVGFile="" shapeSizeMapUnitScale="3x:0,0,0,0,0,0" shapeSizeType="0" shapeSizeUnit="MM" shapeSizeX="0" shapeSizeY="0" shapeType="0">
               <symbol alpha="1" clip_to_extent="1" force_rhr="0" name="markerSymbol" type="marker">
                 <layer class="SimpleMarker" enabled="1" locked="0" pass="0">
@@ -1923,6 +1923,9 @@
       <SelectionColorGreenPart type="int">255</SelectionColorGreenPart>
       <SelectionColorRedPart type="int">255</SelectionColorRedPart>
     </Gui>
+    <Layouts>
+      <lastLayoutExportDir type="QString">/Users/asger/Documents/Privat/Kolonihave/git-repo/derundehaver/kort/missouri</lastLayoutExportDir>
+    </Layouts>
     <Legend>
       <filterByMap type="bool">false</filterByMap>
     </Legend>
@@ -2042,7 +2045,141 @@
     <creation>2020-04-22T22:01:57</creation>
   </projectMetadata>
   <Annotations></Annotations>
-  <Layouts></Layouts>
+  <Layouts>
+    <Layout name="SimpeltStående" printResolution="300" units="mm" worldFileMap="{170d2a41-fcc9-43e1-9f69-c8446244d989}">
+      <Snapper snapToGrid="0" snapToGuides="1" snapToItems="1" tolerance="5"></Snapper>
+      <Grid offsetUnits="mm" offsetX="0" offsetY="0" resUnits="mm" resolution="10"></Grid>
+      <PageCollection>
+        <symbol alpha="1" clip_to_extent="1" force_rhr="0" name="" type="fill">
+          <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+            <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"></prop>
+            <prop k="color" v="255,255,255,255"></prop>
+            <prop k="joinstyle" v="miter"></prop>
+            <prop k="offset" v="0,0"></prop>
+            <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"></prop>
+            <prop k="offset_unit" v="MM"></prop>
+            <prop k="outline_color" v="35,35,35,255"></prop>
+            <prop k="outline_style" v="no"></prop>
+            <prop k="outline_width" v="0.26"></prop>
+            <prop k="outline_width_unit" v="MM"></prop>
+            <prop k="style" v="solid"></prop>
+            <data_defined_properties>
+              <Option type="Map">
+                <Option name="name" type="QString" value=""></Option>
+                <Option name="properties"></Option>
+                <Option name="type" type="QString" value="collection"></Option>
+              </Option>
+            </data_defined_properties>
+          </layer>
+        </symbol>
+        <LayoutItem background="true" blendMode="0" excludeFromExports="0" frame="false" frameJoinStyle="miter" groupUuid="" id="" itemRotation="0" opacity="1" outlineWidthM="0.3,mm" position="0,0,mm" positionLock="false" positionOnPage="0,0,mm" referencePoint="0" size="297,420,mm" templateUuid="{4ae52834-3a69-4704-876f-28b01009d681}" type="65638" uuid="{4ae52834-3a69-4704-876f-28b01009d681}" visibility="1" zValue="0">
+          <FrameColor alpha="255" blue="0" green="0" red="0"></FrameColor>
+          <BackgroundColor alpha="255" blue="255" green="255" red="255"></BackgroundColor>
+          <LayoutObject>
+            <dataDefinedProperties>
+              <Option type="Map">
+                <Option name="name" type="QString" value=""></Option>
+                <Option name="properties"></Option>
+                <Option name="type" type="QString" value="collection"></Option>
+              </Option>
+            </dataDefinedProperties>
+            <customproperties></customproperties>
+          </LayoutObject>
+          <symbol alpha="1" clip_to_extent="1" force_rhr="0" name="" type="fill">
+            <layer class="SimpleFill" enabled="1" locked="0" pass="0">
+              <prop k="border_width_map_unit_scale" v="3x:0,0,0,0,0,0"></prop>
+              <prop k="color" v="255,255,255,255"></prop>
+              <prop k="joinstyle" v="miter"></prop>
+              <prop k="offset" v="0,0"></prop>
+              <prop k="offset_map_unit_scale" v="3x:0,0,0,0,0,0"></prop>
+              <prop k="offset_unit" v="MM"></prop>
+              <prop k="outline_color" v="35,35,35,255"></prop>
+              <prop k="outline_style" v="no"></prop>
+              <prop k="outline_width" v="0.26"></prop>
+              <prop k="outline_width_unit" v="MM"></prop>
+              <prop k="style" v="solid"></prop>
+              <data_defined_properties>
+                <Option type="Map">
+                  <Option name="name" type="QString" value=""></Option>
+                  <Option name="properties"></Option>
+                  <Option name="type" type="QString" value="collection"></Option>
+                </Option>
+              </data_defined_properties>
+            </layer>
+          </symbol>
+        </LayoutItem>
+        <GuideCollection visible="1"></GuideCollection>
+      </PageCollection>
+      <LayoutItem background="false" blendMode="0" excludeFromExports="0" frame="false" frameJoinStyle="miter" groupUuid="" halign="1" htmlState="0" id="" itemRotation="0" labelText="Kolonihaveforeningen for Nærum og Omegn" marginX="0" marginY="0" opacity="1" outlineWidthM="0.3,mm" position="6.76841,387.647,mm" positionLock="false" positionOnPage="6.76841,387.647,mm" referencePoint="0" size="92.9709,32.3525,mm" templateUuid="{968e39ee-7d7b-42e6-ab52-449375d71906}" type="65641" uuid="{968e39ee-7d7b-42e6-ab52-449375d71906}" valign="32" visibility="1" zValue="3">
+        <FrameColor alpha="255" blue="0" green="0" red="0"></FrameColor>
+        <BackgroundColor alpha="255" blue="255" green="255" red="255"></BackgroundColor>
+        <LayoutObject>
+          <dataDefinedProperties>
+            <Option type="Map">
+              <Option name="name" type="QString" value=""></Option>
+              <Option name="properties"></Option>
+              <Option name="type" type="QString" value="collection"></Option>
+            </Option>
+          </dataDefinedProperties>
+          <customproperties></customproperties>
+        </LayoutObject>
+        <LabelFont description="BellTopo Sans,24,-1,5,50,0,0,0,0,0,Regular" style="Regular"></LabelFont>
+        <FontColor alpha="255" blue="0" green="0" red="0"></FontColor>
+      </LayoutItem>
+      <LayoutItem anchorPoint="0" background="false" blendMode="0" excludeFromExports="0" file=":/images/north_arrows/layout_default_north_arrow.svg" frame="false" frameJoinStyle="miter" groupUuid="" id="North Arrow" itemRotation="0" mapUuid="{170d2a41-fcc9-43e1-9f69-c8446244d989}" northMode="0" northOffset="0" opacity="1" outlineWidthM="0.3,mm" pictureHeight="22.5576" pictureRotation="-75" pictureWidth="17.8703" position="40.0468,317.333,mm" positionLock="false" positionOnPage="40.0468,317.333,mm" referencePoint="0" resizeMode="0" size="26.4141,25.7537,mm" svgBorderColor="0,0,0,255" svgBorderWidth="0.2" svgFillColor="255,255,255,255" templateUuid="{217d85f2-ab7e-417c-81b6-26294c9b76b4}" type="65640" uuid="{217d85f2-ab7e-417c-81b6-26294c9b76b4}" visibility="1" zValue="2">
+        <FrameColor alpha="255" blue="0" green="0" red="0"></FrameColor>
+        <BackgroundColor alpha="255" blue="255" green="255" red="255"></BackgroundColor>
+        <LayoutObject>
+          <dataDefinedProperties>
+            <Option type="Map">
+              <Option name="name" type="QString" value=""></Option>
+              <Option name="properties"></Option>
+              <Option name="type" type="QString" value="collection"></Option>
+            </Option>
+          </dataDefinedProperties>
+          <customproperties></customproperties>
+        </LayoutObject>
+      </LayoutItem>
+      <LayoutItem background="true" blendMode="0" drawCanvasItems="true" excludeFromExports="0" followPreset="false" followPresetName="" frame="false" frameJoinStyle="miter" groupUuid="" id="" itemRotation="0" keepLayerSet="false" labelMargin="0,mm" mapFlags="0" mapRotation="-75" opacity="1" outlineWidthM="0.3,mm" position="0,0,mm" positionLock="false" positionOnPage="0,0,mm" referencePoint="0" size="297,420,mm" templateUuid="{170d2a41-fcc9-43e1-9f69-c8446244d989}" type="65639" uuid="{170d2a41-fcc9-43e1-9f69-c8446244d989}" visibility="1" zValue="1">
+        <FrameColor alpha="255" blue="0" green="0" red="0"></FrameColor>
+        <BackgroundColor alpha="255" blue="255" green="255" red="255"></BackgroundColor>
+        <LayoutObject>
+          <dataDefinedProperties>
+            <Option type="Map">
+              <Option name="name" type="QString" value=""></Option>
+              <Option name="properties"></Option>
+              <Option name="type" type="QString" value="collection"></Option>
+            </Option>
+          </dataDefinedProperties>
+          <customproperties></customproperties>
+        </LayoutObject>
+        <Extent xmax="722072.10764015070162714" xmin="721809.97111571999266744" ymax="6190802.42587745003402233" ymin="6190431.72776209190487862"></Extent>
+        <LayerSet></LayerSet>
+        <AtlasMap atlasDriven="0" margin="0.10000000000000001" scalingMode="2"></AtlasMap>
+        <labelBlockingItems></labelBlockingItems>
+      </LayoutItem>
+      <customproperties>
+        <property key="atlasRasterFormat" value="png"></property>
+        <property key="forceVector" value="0"></property>
+        <property key="imageAntialias" value="true"></property>
+        <property key="imageCropMarginBottom" value="0"></property>
+        <property key="imageCropMarginLeft" value="0"></property>
+        <property key="imageCropMarginRight" value="0"></property>
+        <property key="imageCropMarginTop" value="0"></property>
+        <property key="imageCropToContents" value="false"></property>
+        <property key="pdfAppendGeoreference" value="1"></property>
+        <property key="pdfCreateGeoPdf" value="0"></property>
+        <property key="pdfDisableRasterTiles" value="0"></property>
+        <property key="pdfExportGeoPdfFeatures" value="0"></property>
+        <property key="pdfExportThemes" value=""></property>
+        <property key="pdfIncludeMetadata" value="1"></property>
+        <property key="pdfOgcBestPracticeFormat" value="0"></property>
+        <property key="pdfSimplify" value="1"></property>
+        <property key="pdfTextFormat" value="0"></property>
+      </customproperties>
+      <Atlas coverageLayer="" enabled="0" filenamePattern="'output_'||@atlas_featurenumber" filterFeatures="0" hideCoverage="0" pageNameExpression="" sortFeatures="0"></Atlas>
+    </Layout>
+  </Layouts>
   <Bookmarks></Bookmarks>
   <ProjectViewSettings UseProjectScales="0">
     <Scales></Scales>
